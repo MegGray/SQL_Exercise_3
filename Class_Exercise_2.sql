@@ -14,17 +14,24 @@ INSERT INTO pace(Average_Pace, Best_Pace)
 		,('2:10', '0:43')
 		,('2:11', '0:44')
     ;
+SELECT * FROM pace;
+
 INSERT INTO timing(Total, Moving_Time, Elapsed_Time)
 	VALUES('1:06:02', '29:41', '1:07:20')
     ,('1:31:15', '38:18', '1:32:25')
     ,('1:16:55', '37:38', '1:20:09')
     ;
+SELECT * FROM timing;
+
 INSERT INTO swimming_dynamics(Average_Swolf, Total_Strokes, Average_Stroke_Rate, Max_Stroke_Rate, Average_Strokes)
 	VALUES(39, 532, 18, 26, 9)
 	,(42, 689, 18, 28, 9.7)
     ,(43, 695, 18, 30, 10.1) 
     ;
-    
-SELECT * FROM pace;
-SELECT * FROM timing;
 SELECT * FROM swimming_dynamics;
+
+-- Bonus - Add a primary key column that automatially ascends in number count.
+ALTER TABLE pace ADD 
+	pace_id INT primary key 
+	AUTO_INCREMENT; 
+Select * FROM pace;
