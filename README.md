@@ -3,13 +3,13 @@ Bootcamp Class Exercise 2
 
 ## **Instructions from Class Assignment Notes**
 
-* Add some data into a database called FavoriteDB. Data should be unique and you should try to test your skills in adding new data, and updating existing data!
+* Add data into a database called FavoriteDB. Data should be unique and you should try to test your skills in adding new data, and updating existing data!
 
 * Add at least three rows of data to each table.
 
 ## **Bonus**
 
-* Creatie a column that has a default value within it, and note how default values work when creating new rows.
+* Create a column that has a default value within it, and note how default values work when creating new rows.
 
 * Create a column with a default value that automatically goes up with each new row
 
