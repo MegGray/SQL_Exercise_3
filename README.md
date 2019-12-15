@@ -13,7 +13,7 @@ Bootcamp Class Exercise 2
 
 * Create a column with a default value that automatically goes up with each new row
 
-* Asssign a column the "primary key"
+* Assign a column the "primary key"
 
 * Create a column called "id" in one of your tables that can contain an integer, is the primary key for the table, cannot be NULL, and automatically increments with each new row added.
 
